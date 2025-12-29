@@ -9,16 +9,18 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 @Configuration
 public class ThreadConfig {
 
+    @Bean
     public Executor traditionalExecutor() {
         ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
-        executor.setCorePoolSize(3);  // Limited number of threads
-        executor.setMaxPoolSize(3);
+        executor.setCorePoolSize(5);  // Limited number of threads
+        executor.setMaxPoolSize(5);
         executor.setQueueCapacity(100);
         executor.setThreadNamePrefix("traditional-");
         executor.initialize();
         return executor;
     }
 
+    @Bean
     public Executor virtualExecutor() {
         return Executors.newVirtualThreadPerTaskExecutor();
     }

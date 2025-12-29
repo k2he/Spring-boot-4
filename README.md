@@ -23,7 +23,7 @@ This is a demo project showcasing new features in **Spring Boot 4** and **Java 2
     - Open http://localhost:3000
     - Go to Drilldown
     - View Logs, Metrics, Traces
-
+   ![img.png](img.png)
 5. **Spring Boot Docker Compose**  
    Native support for running and managing services with Docker Compose.
 
@@ -34,6 +34,9 @@ This is a demo project showcasing new features in **Spring Boot 4** and **Java 2
 
     1. `ab -n 200 -c 200 -m GET "http://localhost:8080/threads/v1/traditional"`
     2. `ab -n 200 -c 200 -m GET "http://localhost:8080/threads/v1/virtual"`
+
+  Use Google Gemini to analyze and visualize the benchmark results as below:
+  ![img_1.png](img_1.png)
   
 ## Getting Started
 

@@ -43,7 +43,7 @@ public class ThreadService {
 
   private static void simulateDelay() {
     try {
-      Thread.sleep(2000);
+      Thread.sleep(1000);
     } catch (InterruptedException e) {
       log.error(e.getLocalizedMessage());
     }
