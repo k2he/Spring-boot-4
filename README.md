@@ -14,7 +14,6 @@ This is a demo project showcasing new features in **Spring Boot 4** and **Java 2
    Modern HTTP clients for easier and more robust REST integrations.
    - It enables to define an HTTP service through a Java interface with @HttpExchange-annotated methods. (see `ProductRestClientService`)
    - Used sample APIs on https://restful-api.dev/ 
-3. 
 3. **Null Safety with JSpecify**  
    Improved null-safety using [JSpecify](https://jspecify.dev/) annotations.
 
