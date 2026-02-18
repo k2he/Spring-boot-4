@@ -67,7 +67,7 @@
 			<groupId>org.jspecify</groupId>
 			<artifactId>jspecify</artifactId>
 			<version>1.0.0</version> <!-- Check for latest -->
-			<scope>provided</scope> <!-- Annotations are compile-time only -->
+<!--			<scope>provided</scope> &lt;!&ndash; Annotations are compile-time only &ndash;&gt;-->
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
